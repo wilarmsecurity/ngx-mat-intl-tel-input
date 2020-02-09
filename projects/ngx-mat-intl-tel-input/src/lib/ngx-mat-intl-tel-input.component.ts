@@ -47,6 +47,7 @@ export class NgxMatIntlTelInputComponent implements OnInit, OnDestroy, DoCheck, 
   @Input() onlyCountries: Array<string> = [];
   @Input() errorStateMatcher: ErrorStateMatcher;
   @Input() enableSearch = false;
+  @Input() searchPlaceholder = 'Search...';
   // tslint:disable-next-line:variable-name
   private _placeholder: string;
   // tslint:disable-next-line:variable-name
@@ -190,7 +191,7 @@ export class NgxMatIntlTelInputComponent implements OnInit, OnDestroy, DoCheck, 
         dialCode: c[2].toString(),
         priority: +c[3] || 0,
         areaCodes: c[4] as string[] || undefined,
-        flagClass: c[1].toString().toUpperCase(),
+        flagClass: c[1].toString().toLowerCase(),
         placeHolder: ''
       };
 
