@@ -7,7 +7,9 @@
     "@angular/forms": "~8.2.12",
     "@angular/platform-browser": "~8.2.12",
     "@angular/platform-browser-dynamic": "~8.2.12",
-    "libphonenumber-js": "^1.7.25"
+    "libphonenumber-js": "^1.7.25",
+    "flag-icon-css": "^3.4.5",
+    "material-design-icons": "^3.0.1"
   },
   "repository": {
     "type": "git",
