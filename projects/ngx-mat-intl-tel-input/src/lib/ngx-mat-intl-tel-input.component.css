@@ -49,7 +49,7 @@ input.country-search {
   background-repeat: no-repeat;
   background-size: 18px auto;*/
   border-radius: 0;
-  color: rgba(0, 0, 0, .87);
+  /*color: rgba(0, 0, 0, .87);*/
   flex-shrink: 0;
   height: initial;
   line-height: unset;
@@ -85,7 +85,7 @@ input.country-search {
 }
 
 .country-list-button {
-  color: rgba(0, 0, 0, .87);
+  /*color: rgba(0, 0, 0, .87);*/
   direction: ltr;
   font-size: 16px;
   font-weight: 400;
